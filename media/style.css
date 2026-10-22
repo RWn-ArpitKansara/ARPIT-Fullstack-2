@@ -1,0 +1,121 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.mobile
+{
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+    visibility: hidden;
+}
+.laptop
+{
+    height: 60px;
+    width: 100%;
+    background-color: yellow;
+    visibility: hidden;
+}
+.computer
+{
+    height: 60px;
+    width: 100%;
+    background-color: crimson;
+    visibility: hidden;
+}
+.lg
+{
+    height: 60px;
+    width: 100%;
+    background-color: greenyellow;
+    visibility: hidden;
+}
+
+@media (max-width:480px)
+{
+    .mobile
+{
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+    visibility: visible;
+}
+}
+
+
+@media (min-width:481px) and (max-width:768px)
+{
+        .mobile
+{
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+    visibility: visible;
+}
+    .laptop
+{
+    height: 60px;
+    width: 100%;
+    background-color: yellow;
+    visibility: visible;
+}
+}
+
+@media (min-width:769px) and (max-width:1024px)
+{
+            .mobile
+{
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+    visibility: visible;
+}
+    .laptop
+{
+    height: 60px;
+    width: 100%;
+    background-color: yellow;
+    visibility: visible;
+}
+.computer
+{
+    height: 60px;
+    width: 100%;
+    background-color: crimson;
+    visibility: visible;
+}
+}
+
+@media (min-width:1025px) and (max-width:1280px)
+{
+              .mobile
+{
+    height: 60px;
+    width: 100%;
+    background-color: aqua;
+    visibility: visible;
+}
+    .laptop
+{
+    height: 60px;
+    width: 100%;
+    background-color: yellow;
+    visibility: visible;
+}
+.computer
+{
+    height: 60px;
+    width: 100%;
+    background-color: crimson;
+    visibility: visible;
+}
+.lg
+{
+    height: 60px;
+    width: 100%;
+    background-color: greenyellow;
+    visibility: visible;
+}
+}
